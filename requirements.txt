@@ -1,0 +1,19 @@
+# RegexGPT Dependencies
+# Fine-tuning
+unsloth
+transformers>=4.36.0
+datasets
+accelerate
+bitsandbytes
+peft
+trl
+
+# Demo UI
+gradio
+
+# Utilities
+pandas
+tqdm
+
+# Optional: Experiment tracking
+# wandb

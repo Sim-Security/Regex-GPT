@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+.env
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model files and checkpoints (large files)
+regex_gpt_lora/checkpoint-*/
+regex_gpt_lora/logs/
+regex_gpt_lora/*.safetensors
+regex_gpt_lora/*.bin
+regex_gpt_lora/*.pt
+regex_gpt_lora/*.pth
+*.safetensors
+*.pt
+*.pth
+*.bin
+
+# Training outputs
+training-output.txt
+wandb/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# HuggingFace cache
+.cache/

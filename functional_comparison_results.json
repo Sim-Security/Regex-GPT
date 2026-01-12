@@ -1,0 +1,24 @@
+[
+  {
+    "model": "Base Mistral 7B",
+    "total": 50,
+    "valid_regex": 50,
+    "valid_rate": 100.0,
+    "perfect_count": 0,
+    "perfect_rate": 0.0,
+    "avg_match_acc": 0.0,
+    "avg_non_match_acc": 100.0,
+    "avg_overall_acc": 49.137886648730635
+  },
+  {
+    "model": "RegexGPT (Fine-tuned)",
+    "total": 50,
+    "valid_regex": 44,
+    "valid_rate": 88.0,
+    "perfect_count": 22,
+    "perfect_rate": 44.0,
+    "avg_match_acc": 70.45454545454544,
+    "avg_non_match_acc": 95.83333333333334,
+    "avg_overall_acc": 82.63636363636364
+  }
+]
