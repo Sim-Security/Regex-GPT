@@ -212,12 +212,17 @@ with gr.Blocks(title="RegexGPT", theme=gr.themes.Soft()) as demo:
 
 
 if __name__ == "__main__":
+    import os
+
     # Load model on startup
     load_model()
-    
+
+    # Get port from environment (Cloud Run sets PORT=8080)
+    port = int(os.environ.get("PORT", os.environ.get("GRADIO_SERVER_PORT", 7860)))
+
     # Launch the app
     demo.launch(
         server_name="0.0.0.0",
-        server_port=7860,
+        server_port=port,
         share=False,  # Set to True for public URL
     )
